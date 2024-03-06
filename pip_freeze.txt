@@ -12,6 +12,7 @@ anaconda-navigator @ file:///croot/anaconda-navigator_1695236675007/work
 anaconda-project @ file:///work/ci_py311/anaconda-project_1676846728333/work
 antlr4-python3-runtime==4.9.3
 anyio @ file:///croot/anyio_1706220167567/work
+-e git+https://github.com/NVIDIA/apex.git@0da3ffb92ee6fbe5336602f0e3989db1cd16f880#egg=apex
 appdirs==1.4.4
 archspec @ file:///croot/archspec_1697725767277/work
 argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
@@ -93,7 +94,7 @@ docutils @ file:///work/ci_py311/docutils_1676822773036/work
 entrypoints @ file:///work/ci_py311/entrypoints_1676823319002/work
 et-xmlfile==1.1.0
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
--e git+https://github.com/annaraymaker/TaBERT_updated.git@02a27cb370e23ee06ecb196458e640da8616f197#egg=fairseq&subdirectory=fairseq-0.12.3
+-e git+https://github.com/annaraymaker/TaBERT_updated.git@853f83d2e4cd964065b4a2f333e15429d80597da#egg=fairseq&subdirectory=fairseq-0.12.3
 fastBPE==0.1.0
 fastjsonschema @ file:///work/ci_py311_2/python-fastjsonschema_1679340124475/work
 filelock @ file:///croot/filelock_1700591183607/work
@@ -116,7 +117,7 @@ holoviews @ file:///croot/holoviews_1707836454244/work
 html5lib==1.1
 huggingface-hub @ file:///croot/huggingface_hub_1708634519519/work
 hvplot @ file:///croot/hvplot_1706712387811/work
--e git+https://github.com/annaraymaker/TaBERT_updated.git@02a27cb370e23ee06ecb196458e640da8616f197#egg=hydra_core&subdirectory=hydra-1.3.2
+-e git+https://github.com/annaraymaker/TaBERT_updated.git@853f83d2e4cd964065b4a2f333e15429d80597da#egg=hydra_core&subdirectory=hydra-1.3.2
 hyperlink @ file:///tmp/build/80754af9/hyperlink_1610130746837/work
 idna @ file:///work/ci_py311/idna_1676822698822/work
 imagecodecs @ file:///croot/imagecodecs_1695064943445/work
@@ -362,7 +363,7 @@ stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 statsmodels @ file:///croot/statsmodels_1689937266057/work
 streamlit @ file:///croot/streamlit_1701377619695/work
 sympy @ file:///croot/sympy_1701397643339/work
--e git+https://github.com/annaraymaker/TaBERT_updated.git@02a27cb370e23ee06ecb196458e640da8616f197#egg=table_bert&subdirectory=TaBERT
+-e git+https://github.com/annaraymaker/TaBERT_updated.git@853f83d2e4cd964065b4a2f333e15429d80597da#egg=table_bert&subdirectory=TaBERT
 tables @ file:///croot/pytables_1705614842881/work
 tabulate @ file:///croot/tabulate_1701354810597/work
 TBB==0.2
