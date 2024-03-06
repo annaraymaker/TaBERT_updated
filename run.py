@@ -1,7 +1,7 @@
 from table_bert import TableBertModel
 
 model = TableBertModel.from_pretrained(
-        '/nethome/araymaker3/github/tabert_models/tabert_base_k1/model.bin'
+        '/nethome/araymaker3/TaBERT_updated/tabert_models/tabert_base_k1/model.bin'
 )
 
 

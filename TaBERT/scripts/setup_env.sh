@@ -31,6 +31,6 @@ cd third_party/apex
 # per https://github.com/NVIDIA/apex/issues/605
 # remember to set to the correct target!
 export TORCH_CUDA_ARCH_LIST="6.0;6.1;6.2;7.0;7.5;8.9"
-pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" --global-option="--deprecated_fused_adam" ./
+pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" --global-option="--deprecated_fused_adam" -e ./
 
 cd ${PWD_DIR}
